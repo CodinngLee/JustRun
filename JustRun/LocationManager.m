@@ -82,7 +82,6 @@
         
         NSLog(@"min: %.1f, max: %.1f", self.minimumSpeed, self.maximumSpeed);
     }
-//    NSLog(@"vertical: %f, horizontal: %f", lastLocation.verticalAccuracy, lastLocation.horizontalAccuracy);
 }
 
 - (NSTimeInterval) runTime {
