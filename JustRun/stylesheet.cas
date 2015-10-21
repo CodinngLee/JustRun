@@ -1,0 +1,56 @@
+UILabel.totalDistanceStrLabel {
+    cas_margin-top: 100
+    cas_size : 100 100
+}
+
+UILabel.totalDistanceValLabel {
+    cas_margin-top: -20
+    cas_margin-left: 100
+    cas_size : 200 200
+}
+
+UILabel.totalCalorieStrLabel {
+    cas_margin-top: 200
+    cas_size : 120 120
+}
+
+UILabel.totalCalorieValLabel {
+    cas_margin-top: 120
+    cas_size : 200 200
+}
+
+UILabel.paceStrLabel {
+    cas_margin-top: -20
+    cas_margin-left: 100
+    cas_size : 200 200
+}
+
+UILabel.paceValLabel {
+    cas_margin-top: -20
+    cas_margin-left: 100
+    cas_size : 200 200
+}
+
+UILabel.totalNumberStrLabel {
+    cas_margin-top: -20
+    cas_margin-left: 100
+    cas_size : 200 200
+}
+
+UILabel.totalNumberValLabel {
+    cas_margin-top: -20
+    cas_margin-left: 100
+    cas_size : 200 200
+}
+
+UILabel.averageDistanceStrLabel {
+    cas_margin-top: -20
+    cas_margin-left: 100
+    cas_size : 200 200
+}
+
+UILabel.averageDistanceValLabel {
+    cas_margin-top: -20
+    cas_margin-left: 100
+    cas_size : 200 200
+}

@@ -1,0 +1,92 @@
+//
+//  PrefixHeader.pch
+//  JustRun
+//
+//  Created by liyongjie on 9/16/15.
+//  Copyright (c) 2015 net.oeilbleu. All rights reserved.
+//
+
+#ifndef JustRun_PrefixHeader_pch
+#define JustRun_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Reachability/Reachability.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <Masonry/Masonry.h>
+#import <Classy.h>
+#import <ClassyLiveLayout.h>
+#import <MJRefresh/MJRefresh.h>
+#import <AVOSCloud/AVOSCloud.h>
+#import <DKNightVersion/DKNightVersion.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#import <FlatUIKit/FlatUIKit.h>
+#import <MBProgressHUD.h>
+#import <JGActionSheet.h>
+#import <AFNetworking/AFNetworking.h>
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+#import <MagicalRecord/MagicalRecord.h>
+#import <POP.h>
+#import <FontAwesomeKit/FAKIcon.h>
+#import <FontAwesomeKit/FAKIonIcons.h>
+#import <KVOController/FBKVOController.h>
+
+#ifdef DEBUG
+static const int ddLogLevel = DDLogLevelVerbose;
+#else
+static const int ddLogLevel = DDLogLevelError;
+#endif
+
+#define UserDefaults       [NSUserDefaults standardUserDefaults]
+
+#define LEANCOUND_API_ID   @"0l6skRt8WIVoIJKpVmIifeXV"
+#define LEANCOUND_API_KEY  @"eAFPhywQT752F1I5UIM7CXMd"
+#define API_MAP_KEY        @"248a9c412af74fe53c44a7e7fdd264d4"
+
+// 当前 APP 版本
+#define CURRENT_APP_VERSION 1.0
+// 用户第一次安装 APP 展示引导页的版本
+#define LAST_SHOW_GUIDE_APP_VERSION @"Last_Show_Guide_App_Version"
+// 用户是否已经登录
+#define IS_LOGINED @"User_Login_Status"
+// App 主题模式是否开启夜间模式
+#define APP_THEME_NIGHT_MODE @"Night_Mode_Is_On"
+
+//系统判定
+#define  IOS_VERSION  [[[UIDevice currentDevice]systemVersion]floatValue]
+
+// 1.判断是否为iOS7
+//#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+#define iOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 && [[[UIDevice currentDevice] systemVersion] floatValue] < 8.0)
+#define iOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) && [[[UIDevice currentDevice] systemVersion] floatValue] < 9.0)
+
+
+// 2.获得RGB颜色
+#define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r, g, b)     RGBA(r, g, b, 1.0f)
+
+// 3.是否为4inch
+#define fourInch ([UIScreen mainScreen].bounds.size.height == 568)
+
+// 4.屏幕大小尺寸
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define BoldSystemFont(size)  [UIFont boldSystemFontOfSize:size]
+#define SystemFont(size)      [UIFont systemFontOfSize:size]
+
+
+#define TableViewCellSeparatorDawnColor [UIColor colorWithRed:200 / 255.0 green:199 / 255.0 blue:204 / 255.0 alpha:1]; // #C8C7CC
+#define DawnViewBGColor [UIColor colorWithRed:235 / 255.0 green:235 / 255.0 blue:235 / 255.0 alpha:1] // #EBEBEB
+#define DawnCellBGColor [UIColor colorWithRed:249 / 255.0 green:249 / 255.0 blue:249 / 255.0 alpha:1] // #F9F9F9
+#define NightCellBGColor [UIColor colorWithRed:50 / 255.0 green:50 / 255.0 blue:50 / 255.0 alpha:1] // #323232
+#define NightCellTextColor [UIColor colorWithRed:111 / 255.0 green:111 / 255.0 blue:111 / 255.0 alpha:1] // #6F6F6F
+#define NightCellHeaderTextColor [UIColor colorWithRed:75 / 255.0 green:75 / 255.0 blue:75 / 255.0 alpha:1] // #4B4B4B
+#define NightBGViewColor [UIColor colorWithRed:38 / 255.0 green:38 / 255.0 blue:38 / 255.0 alpha:1] // #262626
+#define NightTextColor [UIColor colorWithRed:135 / 255.0 green:135 / 255.0 blue:135 / 255.0 alpha:1] // #878787
+#define NightNavigationBarColor [UIColor colorWithRed:32 / 255.0 green:32 / 255.0 blue:32 / 255.0 alpha:1] // #202020
+#define DawnNavigationBarColor [UIColor colorWithRed:236 / 255.0 green:236 / 255.0 blue:236 / 255.0 alpha:1] // #ECECEC
+#define TitleTextColor [UIColor colorWithRed:91 / 255.0 green:91 / 255.0 blue:91 / 255.0 alpha:1] // #5B5B5B
+
+#endif

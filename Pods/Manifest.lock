@@ -1,0 +1,199 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.0.1)
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AMap2DMap (3.1.0)
+  - AMapSearch (3.0.0)
+  - AVOSCloud (3.1.4)
+  - AVOSCloudCrashReporting (3.1.4):
+    - AVOSCloud
+  - AVOSCloudIM (3.1.4):
+    - AVOSCloud
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Classy (0.2.4)
+  - ClassyLiveLayout (0.6.0):
+    - Classy
+    - Masonry
+  - CNPPopupController (0.3.1)
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - DACircularProgress (2.3.1)
+  - DKNightVersion (0.8.1):
+    - DKNightVersion/Controller (= 0.8.1)
+    - DKNightVersion/Core (= 0.8.1)
+    - DKNightVersion/Generator (= 0.8.1)
+    - DKNightVersion/Helper (= 0.8.1)
+    - DKNightVersion/UIKit (= 0.8.1)
+  - DKNightVersion/Controller (0.8.1):
+    - DKNightVersion/Core
+    - DKNightVersion/UIKit
+  - DKNightVersion/Core (0.8.1)
+  - DKNightVersion/Generator (0.8.1)
+  - DKNightVersion/Helper (0.8.1):
+    - DKNightVersion/Core
+  - DKNightVersion/UIKit (0.8.1):
+    - DKNightVersion/Core
+    - DKNightVersion/Helper
+  - FlatUIKit (1.6.2)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - Harpy (3.3.10)
+  - INTULocationManager (4.0.0)
+  - JBChartView (2.8.16)
+  - JGActionSheet (1.0.5)
+  - JZLocationConverter (1.0.0)
+  - Kiwi (2.4.0)
+  - KVOController (1.0.3)
+  - MagicalRecord (2.3.0)
+  - Masonry (0.6.3)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (2.4.11)
+  - MWPhotoBrowser (2.1.1):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - Onboard (2.1.7)
+  - PNChart (0.8.7):
+    - UICountingLabel (~> 1.2.0)
+  - pop (1.0.8)
+  - Reachability (3.2)
+  - RSKImageCropper (1.3.1)
+  - SDVersion (2.5.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SFCountdownView (0.0.1)
+  - SOMotionDetector (1.0.1)
+  - SVWebViewController (1.0)
+  - SWTableViewCell (0.3.7)
+  - TPKeyboardAvoiding (1.2.9)
+  - TTTAttributedLabel (1.13.4)
+  - UICountingLabel (1.2.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AFNetworking
+  - AMap2DMap
+  - AMapSearch
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - AVOSCloudIM
+  - BlocksKit
+  - Classy
+  - ClassyLiveLayout
+  - CNPPopupController
+  - CocoaLumberjack
+  - DKNightVersion
+  - FlatUIKit
+  - FontAwesomeKit/IonIcons
+  - Harpy
+  - INTULocationManager
+  - JBChartView
+  - JGActionSheet
+  - JZLocationConverter
+  - Kiwi
+  - KVOController
+  - MagicalRecord
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - MWPhotoBrowser
+  - Onboard
+  - PNChart
+  - pop
+  - Reachability
+  - RSKImageCropper
+  - SDVersion
+  - SDWebImage
+  - SFCountdownView
+  - SOMotionDetector (~> 1.0.1)
+  - SVWebViewController
+  - SWTableViewCell
+  - TPKeyboardAvoiding
+  - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: eeb47e64b7af3e09a50e1ce5dfee9c8c957490c6
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  AMap2DMap: a6741139dd16d237713c4fd6cae9a0399ca1fe25
+  AMapSearch: fd1ed96353f8a0f5c2e2463dac6a145bb3e6970f
+  AVOSCloud: 2be1640178facaac8343d67ed4d5348f4dffecd7
+  AVOSCloudCrashReporting: 75d61571dd6087a096c7be8f3a2a9283fe858bbd
+  AVOSCloudIM: e2934a3128b018eeb5c9d923822ab287315b0b7f
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Classy: 8d39a27d36865856c8cf21cba5d58fa9252037d9
+  ClassyLiveLayout: a28f6cc404ce8f2f36bf98b628b6c85b8667e105
+  CNPPopupController: 67dc2ca5a3f88cd49a27bb1b0aeb78a24d423d79
+  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DKNightVersion: 5416e74d11f696c6dd0c8f1318cf5871aa6b6070
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  Harpy: 7cb3e32eea8a21af0e89b7f9f7bccd23f9427139
+  INTULocationManager: 754f2800415378b7bb2c07be103449e1f6a2cc70
+  JBChartView: 8e65b7fbb4e7f1f2c0197575734fce4af1c19e17
+  JGActionSheet: 2cfca820b57a11ec4b4a5655d45ee599fbeddc05
+  JZLocationConverter: 3d816bee6484aed9c155a6045a02ce444833e2f0
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: b327947f35ab3eb16ca42646b26f7347e6aa7186
+  MWPhotoBrowser: ba0d0c09ffda3a7ea10093518738c502c1c7141c
+  Onboard: 87648089e1b76d13b4f5bf8f7a1cdb144092f0af
+  PNChart: c1755716bbd45386d2035b2bf2ce73e6d3f8cb22
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RSKImageCropper: b4993121db4f6679a7f7ed1305050ef970764e3f
+  SDVersion: 55bbbc09b04aa092166fa4d6d90b7aa38fb6140e
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SFCountdownView: 0ad5af1fd7d35a413eeee2671bda0f7e4b8941d7
+  SOMotionDetector: 9e7975e25ccdaa3f108db510153f92ef433767da
+  SVWebViewController: c36dda7326e81fcae0abf5d02bf7bbf7e41be901
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  TPKeyboardAvoiding: ff1ee4e5a5a0c119b965552af8f183868ea20207
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+
+COCOAPODS: 0.39.0
